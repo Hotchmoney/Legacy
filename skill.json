@@ -1,0 +1,39 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "foo",
+          "examplePhrases": [
+            "Alexa, play Legacy.",
+            "Ask Baraz what she wants for the sword.",
+            "Where can I go from here?"
+          ],
+          "name": "Sword",
+          "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.fde0c2b6-41e9-480f-b342-ca7295488590/images/eyJkIjoiY01RdWVVVWNiTi9LL3JVVHB1VlFaL1pocUZySndZdlN4ci9ZVHpMNU5rNXdKRDdsakRaVXQ2eFpjNmU3cDdKam5ZWmk1Ym9LemUrVmNOTElaTFFHN2ZmR3NheXl4VGp4SVAzZEg4bnhCdmNpa0Z6aXNxL05CdURXOFllRmR5YzUiLCJpdiI6IndSOXZ0MjZaclpWMTdha0dRdzhJd3c9PSIsInYiOjF9",
+          "description": "bar",
+          "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.fde0c2b6-41e9-480f-b342-ca7295488590/images/eyJkIjoiN1Q2YmxMNU1lQkVXaDBSOXNTc29UZG13OG9IY0QwYjBaN21TWWdYN251UmxqZVY2MVRDd1JoQ0w3TXZpRWt2UGplRHZ6NnNZeXd4S1VQQ0svNWhVSFpid2U0R081aHkrQUExNFJvb3JlMzJqY1ZxY1dXZEtPUHdDRkNWOUp3TWo2aWY2aXArWkFyUlRDdkJJQTRGSWhRPT0iLCJpdiI6ImhyTmNIVHZZVTdjTE92TkRlZjJGUEE9PSIsInYiOjF9"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "foo",
+      "category": "GAMES",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "find the sword",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "DescribeRoomIntent",
+          "samples": [
+            "describe current location",
+            "describe room",
+            "describe surroundings",
+            "describe my surroundings",
+            "what can i see",
+            "where am i",
+            "what does the room look like",
+            "what does this room look like",
+            "look around",
+            "what's in the room"
+          ]
+        }
+      ]
+    }
+  }
+}
