@@ -18,12 +18,12 @@ The MVP has no procedural generation of cultures and maps; those will be develop
   * Describe current room
   * Describe exits from current room
   * Move between rooms
-* [] Culture design
-* [] NPC interaction
-* [] Generational changes
-* [] Introduction and ending
+* [ ] Culture design
+* [ ] NPC interaction
+* [ ] Generational changes
+* [ ] Introduction and ending
 
 ### Final
 
-* [] Culture generation
-* [] Map generation
+* [ ] Culture generation
+* [ ] Map generation
